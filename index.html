@@ -214,7 +214,7 @@
           </div>
           <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
             <h2 class="heading">Welcome!</h2>
-            <p class="mb-4">Golden Griffin Rajpura is renowned as the best 3-star Hotel and Restaurant in Rajpura, Patiala, Punjab. Golden Griffin Rajpura also features a Kitty Hall, Banquet Hall, and premier-quality Rooms, ensuring exceptional hospitality. Immerse yourself in exquisite comfort and culinary delights at our esteemed establishment.</p>
+            <p class="mb-4 text-justify">Golden Griffin Rajpura is renowned as the best 3-star Hotel and Restaurant in Rajpura, Patiala, Punjab. Golden Griffin Rajpura also features a Kitty Hall, Banquet Hall, and premier-quality Rooms, ensuring exceptional hospitality. Immerse yourself in exquisite comfort and culinary delights at our esteemed establishment.</p>
             <p aria-label="about us or see video"><a href="about.html" target="_blank" class="btn btn-primary text-white py-2 mr-3" aria-label="About Us Golden Griffin Rajpura">About Us</a> <span class="mr-3 font-family-serif"><em>or</em></span> <a href="https://youtu.be/SRTcC6U63vA?si=Ngy-k8ErXkJymH6A" aria-label="Golden Griffin Rajpura Hotel Video" data-fancybox class="text-uppercase letter-spacing-1"><strong>Hotel Video</strong> <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(255, 186, 90, 1);transform: scaleY(-1);msFilter:progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);"><path d="M21.593 7.203a2.506 2.506 0 0 0-1.762-1.766C18.265 5.007 12 5 12 5s-6.264-.007-7.831.404a2.56 2.56 0 0 0-1.766 1.778c-.413 1.566-.417 4.814-.417 4.814s-.004 3.264.406 4.814c.23.857.905 1.534 1.763 1.765 1.582.43 7.83.437 7.83.437s6.265.007 7.831-.403a2.515 2.515 0 0 0 1.767-1.763c.414-1.565.417-4.812.417-4.812s.02-3.265-.407-4.831zM9.996 15.005l.005-6 5.207 3.005-5.212 2.995z"></path></svg></a></p>
           </div>
         </div>
@@ -324,7 +324,7 @@
         <div class="row justify-content-center text-center mb-5" aria-label="Restaurant Menu row">
           <div class="col-md-7">
             <h2 class="heading text-white" aria-label="Restaurant Menu heading2" data-aos="fade">Our Restaurant Menu</h2>
-            <p class="text-white" data-aos="fade" data-aos-delay="100" aria-label="Restaurant Menu paragraph">Golden Griffin Rajpura's menu offers a delightful array of options. From fresh breads to flavorful paneer and non-veg dishes, including boneless specialties. Enjoy authentic Basmati rice and Indian main courses. Start your meal with veg or non-veg starters and choose from a variety of soups. Don't miss our tempting desserts and sundaes for a perfect culinary experience.</p>
+            <p class="text-white text-justify" data-aos="fade" data-aos-delay="100" aria-label="Restaurant Menu paragraph">Golden Griffin Rajpura's menu offers a delightful array of options. From fresh breads to flavorful paneer and non-veg dishes, including boneless specialties. Enjoy authentic Basmati rice and Indian main courses. Start your meal with veg or non-veg starters and choose from a variety of soups. Don't miss our tempting desserts and sundaes for a perfect culinary experience.</p>
           </div>
         </div>
         <!-- food-menu-tabs -->
@@ -485,7 +485,7 @@
       </div>
     </section>
     <!-- Restaurant Menu -->
-    <!-- <section class="restaurantmenu" id="next" style="margin: 20px 0px;">
+    <section class="restaurantmenu" id="next" style="margin: 20px 0px;">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -493,7 +493,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- Restaurant Menu end -->
     <!-- Our Restaurant END section -->
     <!-- people says section ok-->
@@ -572,6 +572,127 @@
       </div>
     </section>
     <!-- testimonial section end (yogesh verma)-->
+
+    <!-- Reservation Form starts -->
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-7">
+            <h2 class="heading" data-aos="fade-up" aria-label="Reservation Form heading">Reservation Form</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <!-- Reservation Form form -->
+            <form action="https://formspree.io/f/mgejjrgq" method="post" class="bg-white p-md-5 p-4 mb-5 border">
+              <div class="row">
+                <!-- name -->
+                <div class="col-md-6 form-group">
+                  <label class="text-black font-weight-bold" for="name" aria-label="Enter Name of Customer for Reservation">Name</label>
+                  <input type="text" id="name" class="form-control" name="Name-of-Customer" required aria-label="Name of Customer">
+                </div>
+                <!-- phone -->
+                <div class="col-md-6 form-group">
+                  <label class="text-black font-weight-bold" for="phone" aria-label="Enter Phone Number of Customer for Reservation">Phone Number</label>
+                  <input type="number" id="phone" class="form-control" name="Phone-Number-of-Customer" min="6000000000" max="9999999999" required aria-label="phone number">
+                </div>
+              </div>
+          
+              <div class="row">
+                <div class="col-md-12 form-group">
+                  <label class="text-black font-weight-bold" for="email" aria-label="Enter Email for Reservation">Email</label>
+                  <input type="email" id="email" class="form-control" name="Email-of-Customer" required aria-label="Email Id for Reservation">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label class="text-black font-weight-bold" for="checkin_date" aria-label="Date Check In">Date Check In</label>
+                  <input type="text" id="checkin_date" class="form-control" name="check-in-date" required aria-label="check-in-date">
+                </div>
+                <div class="col-md-6 form-group">
+                  <label class="text-black font-weight-bold" for="checkout_date" aria-label="Date Check Out">Date Check Out</label>
+                  <input type="text" id="checkout_date" class="form-control" name="check-out-date" required aria-label="check-out-date">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <label for="adults" class="font-weight-bold text-black">Adults</label>
+                  <div class="field-icon-wrap">
+                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                    <select name="adults" id="adults" class="form-control" aria-label="adults" required>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4+">4+</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <label for="children" class="font-weight-bold text-black">Children</label>
+                  <div class="field-icon-wrap">
+                    <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                    <select name="children" id="children" class="form-control" aria-label="children" required>
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4+">4+</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row mb-4">
+                <div class="col-md-12 form-group">
+                  <label class="text-black font-weight-bold" for="message" aria-label="Write Message to contact">Message</label>
+                  <textarea id="message" class="form-control " cols="30" rows="8" required name="Message-of-contact" aria-label="Write Message"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="submit" value="Reserve Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold" aria-label="submit button Reserve form page golden griffin rajpura">
+                </div>
+              </div>
+            </form>
+            <!-- form end -->
+          </div>
+          <div class="col-md-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="row">
+              <div class="col-md-10 ml-auto contact-info">
+                <p><span class="d-block">Address:</span> <span class="text-black"><a href="https://maps.app.goo.gl/WAuN86bGiw3ce1mQA" target="_blank" aria-label="Address Golden Griffin Rajpura" style="font-family: times, serif;
+                  font-size: 30px;">National Highway 44, Village Ugana, Rajpura, Patiala, Punjab, India</a></span></p>
+                <!-- Telephone / Mobile Number / Phone Number -->
+                <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span><a href="tel:+919877433325" aria-label="golden griffin rajpura phone" style="font-family: times, serif;
+                  font-size: 30px;">+91 98774-33325</a></span> <br> <span><a href="tel:+916280109020" aria-label="golden griffin rajpura phone number 2nd" style="font-family: times, serif;
+                  font-size: 30px;">+91 62801-09020</a></span></p>
+                <p><span class="d-block">Email:</span> <span class="text-black"><a href="mailto:goldengriffinrajpura@gmail.com" aria-label="golden griffin rajpura gmail" style="font-family: times, serif;
+                  font-size: 25px;">goldengriffinrajpura@gmail.com</a></span></p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Reservation Form Ends -->
+
+    <!-- Google Maps - Golden Griffin Rajpura starts-->
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-7">
+            <h2 class="heading" data-aos="fade-up" aria-label="Google Maps - Golden Griffin Rajpura heading">Google Maps - Golden Griffin Rajpura</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3437.0702570685885!2d76.53600277510454!3d30.51905239592901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fdf39489a58f7%3A0xaac00c7a914ae696!2sGolden%20Griffin%20Rajpura!5e0!3m2!1sen!2sin!4v1701411868987!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Google Maps - Golden Griffin Rajpura ends -->
+
     <!-- Events start -->
     <section class="section blog-post-entry bg-light">
       <div class="container">
